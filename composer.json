@@ -3,6 +3,21 @@
     "description": "Magento 2 Sample Module",
     "type": "magento2-module",
     "version": "1.0.0",
+    "authors": [
+        {
+            "name": "José M. Amietta",
+            "email": "joseamietta@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~7.2.0|~7.3.0|~7.4.0",
+        "magento/framework": "100.*"
+    },
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
     "autoload": {
       "files": [
         "registration.php"
