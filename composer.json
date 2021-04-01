@@ -1,0 +1,15 @@
+{
+    "name": "watts25/magento-2-samplemodule",
+    "description": "Magento 2 Sample Module",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "autoload": {
+      "files": [
+        "registration.php"
+      ],
+      "psr-4": {
+        "Watts25\\SampleModule\\": ""
+      }
+    }
+  }
+  
